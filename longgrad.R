@@ -6,3 +6,4 @@
 
 #######sieve collection####
 sev <-readline(prompt = "75mm")
+s

@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Explanation
 
-  My assessment of Long-gradation calculations are a way of extrapolating moisture content of aggregates using a small subset of the finer paticles. Some online sources simply refer to it as the assessment of the distribution of mass along the size gradient. 
+  My assessment of Long-gradation calculations are a way of extrapolating moisture content of aggregates using a small subset of the finer paticles. Some online sources simply refer to it as the assessment of the distribution of mass along the size gradient. In the context of our work in the quality department we are using a TI-83 calculator to find the moisture content and mass of the entire sample collected in the field. 
   
 ## Formulas
 
@@ -19,4 +19,11 @@ knitr::opts_chunk$set(echo = TRUE)
   
 $$ MC = \frac{FMM - FDM}{FDM} * 100$$
 [^](where MC is moisture content and FMM is the 'fine' particles before drying and FDM are the fine particles after drying)
+
+
+```{r}
+sev <-40 #the sample mass retained on the 75mm sieve 
+
+
+```
 

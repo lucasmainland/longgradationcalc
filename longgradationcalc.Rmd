@@ -1,0 +1,22 @@
+---
+title: "Long Gradation Calculation"
+author: "Lucas Agagnier"
+date: "3/22/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Explanation
+
+  My assessment of Long-gradation calculations are a way of extrapolating moisture content of aggregates using a small subset of the finer paticles. Some online sources simply refer to it as the assessment of the distribution of mass along the size gradient. 
+  
+## Formulas
+
+  First and most important is Moisture content which is a percentage by mass.
+  
+$$ MC = \frac{FMM - FDM}{FDM} * 100$$
+[^](where MC is moisture content and FMM is the 'fine' particles before drying and FDM are the fine particles after drying)
+
